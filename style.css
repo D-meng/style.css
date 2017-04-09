@@ -16,7 +16,7 @@
 }
 
 .title.tabs.active, .tabs, .tablist, .tabs-container, .tab, .composite-title, .composite.title {
-  height: 60px !important;
+  height: 34px !important;
 }
 
 .vs-dark .monaco-workbench>.part.editor>.content>.one-editor-silo>.container>.title.tabs:before {
@@ -31,16 +31,30 @@
   align-items: center;
 }
 
-.part.editor.monaco-editor-background, .part.panel.monaco-editor-background {
+.part.editor.has-watermark {
   box-shadow: -1px 1px 1px -1px rgba(14,15,18,1) !important;
 }
 
-.part.sidebar.left, .part.panel.monaco-editor-background {
+.part.panel {
+  box-shadow: -1px 1px 1px -1px rgba(14,15,18,1) !important;
+}
+
+.part.sidebar.left {
   box-shadow: -1px 1px 1px -1px rgba(14,15,18,1) !important;
 }
 
 .content{
   background-color: rgba(40, 44, 52, 1) !important;
+}
+
+.part.titlebar {
+  background-color: rgba(40, 44, 52, 1) !important;
+  border-bottom:1px solid rgba(14,15,18,0.4)
+}
+
+.part.statusbar {
+  background-color: rgba(40, 44, 52, 1) !important;
+  border-top:1px solid rgba(14,15,18,0.4)
 }
 
 .monaco-tree-wrapper{
